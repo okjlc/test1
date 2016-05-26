@@ -24,4 +24,6 @@ class Cached:
             self._cache.clear()
 
 
+
+
 cache = Cached()
