@@ -22,5 +22,14 @@ class Cached:
     def get(self, key, expire=300):
         return self._cache.get(key)
 
+    def clear(self):
+            self._cache.clear()
+
+    def __delete__(self, instance):
+        pass
+
+    def like(self):
+        pass
+    
 
 cache = Cached()
