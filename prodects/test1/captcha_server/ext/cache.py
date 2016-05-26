@@ -20,6 +20,9 @@ class Cached:
     def get(self, key, expire=300):
         return self._cache.get(key)
 
+
+
+
     def clear(self):
             self._cache.clear()
 
