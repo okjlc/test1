@@ -23,7 +23,6 @@ class Cached:
     def clear(self):
             self._cache.clear()
 
-
-
-
+    def __delete__(self, instance):
+        pass
 cache = Cached()
