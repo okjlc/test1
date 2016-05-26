@@ -23,9 +23,4 @@ class Cached:
         return self._cache.get(key)
 
 
-
-
-    def clear(self):
-            self._cache.clear()
-
 cache = Cached()
