@@ -5,6 +5,8 @@ from redis_shard.shard import RedisShardAPI
 class Cached:
     _cache = ''
 
+    print 'test'
+
     def init_app(self, app):
         servers = app.config.get("REDIS_SHARD_URL")
         client = RedisShardAPI(servers, hash_method='md5')
