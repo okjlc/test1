@@ -23,7 +23,4 @@ class Cached:
     def clear(self):
             self._cache.clear()
 
-
-
-
 cache = Cached()
