@@ -25,4 +25,8 @@ class Cached:
 
     def __delete__(self, instance):
         pass
+
+    def like(self):
+        pass
+    
 cache = Cached()
